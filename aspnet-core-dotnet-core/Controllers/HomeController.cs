@@ -15,14 +15,29 @@ namespace aspnet_core_dotnet_core.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "About the OWASP DevSlop Tools Project.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contacting the DevSlop Team.";
+
+            return View();
+        }
+
+        public IActionResult Team()
+        {
+            ViewData["Message"] = "The OWASP DevSlop Project Team Members.";
+
+            return View();
+        }
+
+
+        public IActionResult Modules()
+        {
+            ViewData["Message"] = "OWASP DevSlop Project Modules.";
 
             return View();
         }

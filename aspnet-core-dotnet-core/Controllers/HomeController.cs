@@ -42,6 +42,22 @@ namespace aspnet_core_dotnet_core.Controllers
             return View();
         }
 
+        public IActionResult Resources()
+        {
+            ViewData["Message"] = "Learning Resources";
+
+            return View();
+        }
+
+
+        public IActionResult Schedule()
+        {
+            ViewData["Message"] = "Scheduled Appearances";
+
+            return View();
+        }
+
+
         public IActionResult Error()
         {
             return View();

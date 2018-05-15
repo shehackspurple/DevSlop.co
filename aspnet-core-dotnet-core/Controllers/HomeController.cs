@@ -15,21 +15,21 @@ namespace aspnet_core_dotnet_core.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "About the OWASP DevSlop Tools Project.";
+            ViewData["Message"] = "About the OWASP DevSlop Tools Project";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Contacting the DevSlop Team.";
+            ViewData["Message"] = "Contacting the DevSlop Team";
 
             return View();
         }
 
         public IActionResult Team()
         {
-            ViewData["Message"] = "The OWASP DevSlop Project Team Members.";
+            ViewData["Message"] = "The OWASP DevSlop Project Team Members";
 
             return View();
         }
@@ -37,7 +37,7 @@ namespace aspnet_core_dotnet_core.Controllers
 
         public IActionResult Modules()
         {
-            ViewData["Message"] = "OWASP DevSlop Project Modules.";
+            ViewData["Message"] = "OWASP DevSlop Project Modules";
 
             return View();
         }
@@ -53,6 +53,34 @@ namespace aspnet_core_dotnet_core.Controllers
         public IActionResult Schedule()
         {
             ViewData["Message"] = "Scheduled Appearances";
+
+            return View();
+        }
+
+        public IActionResult Pixi()
+        {
+            ViewData["Message"] = "DevSlop Pixi Module"; 
+
+            return View();
+        }
+
+        public IActionResult Pixi_CRS()
+        {
+            ViewData["Message"] = "DevSlop Pixi-CRS Module";
+       
+            return View();
+        }
+
+        public IActionResult Patty()
+        {
+            ViewData["Message"] = "DevSlop Patty Module";
+
+            return View();
+        }
+
+        public IActionResult DevSecOps_Studio()
+        {
+            ViewData["Message"] = "DevSlop DevSecOps Studio Module";
 
             return View();
         }

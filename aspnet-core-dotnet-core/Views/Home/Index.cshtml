@@ -1,5 +1,4 @@
 ﻿@{
-@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -10,24 +9,24 @@
     <div class="content">
                <div class="content-body">
             <div class="success-text">Welcome to OWASP DevSlop</div>
-            <div class="description line-1"> The hacker jungle gym built on DevOps disasters.</div>
-            <div class="description line-2"> Learn DevSecOps by using these tools!</div>
+             <div class="description line-2"> Learn DevSecOps by using these tools!</div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-4">
-        <h2>Check out the project modules </h2>
+        <h2>DevSlop Project Modules </h2>
         <p>
-            We have many different parts to our project, called <a href="~/Modules.cshtml">Modules</a>, figure out which one works for you.
+            We have many different parts to our project, called <a asp-area="" asp-controller="Home" asp-action="Modules">Modules</a>, figure out which one works for you.
         </p>
     </div>
     <div class="col-md-4">
         <h2>Meet the DevSlop Team</h2>
-        <p>We have a fantastic group of individuals on our <a href="~/Team.cshtml">team</a>, all passionate about software security.</p>
+        <p>We have a fantastic group of individuals on our <a asp-area="" asp-controller="Home" asp-action="Team">team</a>, all passionate about software 
+        security.  Learn more about them <a asp-area="" asp-controller="Home" asp-action="Team">here</a>.</p>
     </div>
     <div class="col-md-4">
-        <h2>Learn from us!</h2>
-        <p>Find out more about what DevSlop can teach you. (coming soon)</p>
+        <h2>Learn <i>With</i> Us</h2>
+        <p>Find out more about what DevSlop can teach you. Check out our <a asp-area="" asp-controller="Home" asp-action="Schedule">teaching schedule</a>.</p>
     </div>
 </div>

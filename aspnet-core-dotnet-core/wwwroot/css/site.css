@@ -12,7 +12,7 @@ body {
 }
 
 .main-container {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-color: #1d539d;
     color: white;
@@ -27,7 +27,7 @@ body {
 
 .cloud-image {
     width: 300px;
-    height: 5550px;
+    height: 200px;
     padding-bottom: 0px;
     margin: auto;
 }
